@@ -3,10 +3,10 @@
 
 $inputContent = file_get_contents('php://stdin');
 
-$options     = getopt('w');
+$options     = getopt('wt:');
 $writeObject = isset($options['w']);
+$type        = $options['t'] ?? 'blob';
 
-$type             = $argv[1] ?? 'blob';
 $contentSeparator = "\0";
 $typeSeparator    = ' ';
 
