@@ -2,3 +2,4 @@
 
 * [git file modes](git_file_modes.md)
 * [commands](commands.md)
+* [notes](notes.md)
